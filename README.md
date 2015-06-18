@@ -23,7 +23,7 @@ The logo is ugly as fuck
 https://www.dropbox.com/s/28xg787bc8tmcrr/sjwcoin-qt.exe?dl=0 if you want the winders binary
 <br />
 #SJWcoin-Qt on Ubuntu 14.04
-<img src="http://i.imgur.com/nr3LWpT.png" />
+<img src="http://postox.com/images/2015/06/17/linux_qt_wallet_FOR-SOCIAL-JUSTICE.png" />
 #SJWcoin-Qt on Winders 7
 <img src="http://i.imgur.com/HGwjp97.png" />
 <br />
