@@ -3,8 +3,8 @@
 
 
 SJWCoin is an open source peer-to-peer crytocurrency.
-
-// we don't need no stinking img.. 
+#Cause Cancer..
+<img src="http://postox.com/images/2015/06/17/splash.png" /> 
 
 #What is SJWCoin?  
 
