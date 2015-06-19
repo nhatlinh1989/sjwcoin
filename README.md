@@ -36,7 +36,7 @@ then compile leveldb (msys shell)<br />
 cd /C/bitcoin-0.8.6/src/leveldb
 TARGET_OS=NATIVE_WINDOWS make libleveldb.a libmemenv.a
 ```
-then it's time to make it (windows CMD prompt, make sure QT \bin is in your %PATH%)<br />
+then it's time to make it (windows CMD prompt, make sure QT \bin is in your %PATH% and the VAR PATHS are right in the .pro)<br />
 ```
 qmake "USE_QRCODE=1" "USE_UPNP=-" "USE_IPV6=-" sjwcoin-qt.pro
 mingw32-make -f Makefile.Release
@@ -44,9 +44,8 @@ mingw32-make -f Makefile.Release
 And It'll end up in the Releases folder
 <br />
 Also, put this shit in your .conf until I can be assed to add it as a seed
-```
-addnode=71.185.213.22
-```
+
+
 #Where can you find us?
 
 website: https://github.com/sjwcoin/sjwcoin<br />
