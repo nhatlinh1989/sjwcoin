@@ -32,11 +32,15 @@ This is a giant pain in the ass to roll on winders
 Follow this guide. https://bitcointalk.org/index.php?topic=149479.0<br />
 Steps 1 all the way to 2.7 (use a newer openssl..  it's at 1.1o now)<br />
 then compile leveldb (msys shell)<br />
-cd /C/bitcoin-0.8.6/src/leveldb<br />
-TARGET_OS=NATIVE_WINDOWS make libleveldb.a libmemenv.a<br />
+```
+cd /C/bitcoin-0.8.6/src/leveldb
+TARGET_OS=NATIVE_WINDOWS make libleveldb.a libmemenv.a
+```
 then it's time to make it (windows CMD prompt, make sure QT \bin is in your %PATH%)<br />
-qmake "USE_QRCODE=1" "USE_UPNP=-" "USE_IPV6=-" sjwcoin-qt.pro<br />
-mingw32-make -f Makefile.Release<br />
+```
+qmake "USE_QRCODE=1" "USE_UPNP=-" "USE_IPV6=-" sjwcoin-qt.pro
+mingw32-make -f Makefile.Release
+```
 And It'll end up in the Releases folder
 <br />
 Also, put this shit in your .conf until I can be assed to add it as a seed
