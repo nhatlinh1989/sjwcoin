@@ -31,7 +31,7 @@ Unpack the files into a directory and run:
 - bin/64/sjwcoin-qt (GUI, 64-bit)
 - bin/64/sjwcoind (headless, 64-bit)
 
-See the documentation at the [Fooocoin Wiki](https://github.com/ohathar/sjwcoin/wiki)
+See the documentation at the [Fooocoin Wiki](https://github.com/sjwcoin/sjwcoin/wiki)
 for help and more information.
 
 
