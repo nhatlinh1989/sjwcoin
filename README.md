@@ -18,14 +18,14 @@ Cause why the fuck not, I say.  Or ask?  It does kind of look like a question.  
 
 #What's broken?
 
-The logo is ugly as fuck
+Probably lots of shit... you find it!!
 <br />
 https://www.dropbox.com/s/28xg787bc8tmcrr/sjwcoin-qt.exe?dl=0 if you want the winders binary
 <br />
 #SJWcoin-Qt on Ubuntu 14.04
 <img src="http://postox.com/images/2015/06/17/linux_qt_wallet_FOR-SOCIAL-JUSTICE.png" />
-#SJWcoin-Qt on Winders 7
-<img src="http://i.imgur.com/HGwjp97.png" />
+#SJWcoin-Qt on Winders 8.1
+<img src="http://postox.com/images/2015/06/18/windows_8_1_qt_wallet.png" />
 <br />
 This is a giant pain in the ass to roll on winders
 <br />
@@ -35,7 +35,6 @@ addnode=71.185.213.22
 ```
 #Where can you find us?
 
-website: https://github.com/ohathar/sjwcoin<br />
-Reddit: http://www.reddit.com/r/justneckbeardthings<br />  
-Twitter: @th3j35t3r  https://twitter.com/th3j35t3r <-- INFIDELS REJOICE! dude is a badass<br />
-Freenode: ##hashhashnumbernumberpoundpoundsharpsharp
+website: https://github.com/sjwcoin/sjwcoin<br />
+Reddit: https://voat.co/v/fatpeoplehate<br />  
+Freenode: ##hashhashnumbernumberpoundpoundsharpsharp <-- i like this so it stays
