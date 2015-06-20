@@ -48,6 +48,6 @@ Also, put this shit in your .conf until I can be assed to add it as a seed
 
 #Where can you find us?
 
-website: https://github.com/sjwcoin/sjwcoin<br />
+website: http://sjwcoin.com<br />
 Reddit: https://voat.co/v/fatpeoplehate<br />  
 Freenode: ##hashhashnumbernumberpoundpoundsharpsharp <-- i like this so it stays
