@@ -60,6 +60,7 @@ sudo apt-get install qt-sdk
 git clone https://github.com/sjwcoin/sjwcoin
 ```
 Comment out the windows LIB PATHs
+```
 nano sjwcoin-qt.pro 
 
 #BOOST_LIB_SUFFIX=-mgw49-mt-s-1_57
