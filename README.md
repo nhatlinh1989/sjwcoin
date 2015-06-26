@@ -43,11 +43,47 @@ mingw32-make -f Makefile.Release
 ```
 And It'll end up in the Releases folder
 <br />
-Also, put this shit in your .conf until I can be assed to add it as a seed
+For linux qt building
+```
+sudo apt-get install build-essential libssl-dev libboost-all-dev
+sudo apt-get install libtool autotools-dev autoconf pkg-config libssl-dev
+apt-cache search libminiupnpc
+sudo apt-get install libminiupnpc-dev
+sudo add-apt-repository ppa:bitcoin/bitcoin
+sudo apt-get update
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+sudo apt-get install qt5-qmake libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev-tools
+ 
+sudo apt-get install qt5-qmake
+sudo apt-get install qt-sdk
+ 
+git clone https://github.com/sjwcoin/sjwcoin
+```
+Comment out the windows LIB PATHs
+nano sjwcoin-qt.pro 
+
+#BOOST_LIB_SUFFIX=-mgw49-mt-s-1_57
+#BOOST_INCLUDE_PATH=C:/deps2/boost_1_57_0
+#BOOST_LIB_PATH=C:/deps2/boost_1_57_0/stage/lib
+#BDB_INCLUDE_PATH=C:/deps2/db-4.8.30.NC/build_unix
+#BDB_LIB_PATH=C:/deps2/db-4.8.30.NC/build_unix
+#OPENSSL_INCLUDE_PATH=C:/deps2/openssl-1.0.1o/include
+#OPENSSL_LIB_PATH=C:/deps2/openssl-1.0.1o
+#MINIUPNPC_INCLUDE_PATH=C:/deps2/
+#MINIUPNPC_LIB_PATH=C:/deps2/miniupnpc
+#QRENCODE_INCLUDE_PATH=C:/deps2/qrencode-3.4.4
+#QRENCODE_LIB_PATH=C:/deps2/qrencode-3.4.4/.libs
+```
+then build it.
+```
+qmake
+make
+```
+in that same directory you will find sjwcoin-qt
 
 
 #Where can you find us?
 
 website: http://sjwcoin.com<br />
 Reddit: https://voat.co/v/fatpeoplehate<br />  
-Freenode: ##hashhashnumbernumberpoundpoundsharpsharp <-- i like this so it stays
+Freenode: #sjwcoin
