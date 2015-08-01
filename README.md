@@ -6,6 +6,9 @@ SJWCoin is an open source peer-to-peer crytocurrency.
 #Cause Cancer..
 <img src="http://postox.com/images/2015/06/17/splash.png" /> 
 
+You are probably looking for https://github.com/sjwcoin/sjwcoin-core
+This version is outdated and will no longer sync the blockchain.
+
 #What is SJWCoin?  
 
 SJWCoin is like Bitcoin, and based on FooCoin, which was a clone of TacoCoin. It is a scrypt based cryptocurrency.
